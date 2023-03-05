@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb( 18,155,155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 30px;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search{
+    display: flex;
+    gap: 35px;
+}
+input{
+    padding: 4px 10px;
+    border-radius: 5%;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.left h1 span{
+    color: rgb( 18,155,155);
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+.left p{
+    font-weight: 500;
+}
+.left p span{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb( 18,155,155);
+}
+.left{
+    width: 40%;
+    margin-left :17%; 
+    margin-right: 2%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-items: center;
+    
+}
+.right button {
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+    gap: 30px;
+    align-self: center;
+    
+}
+.right{
+    position: relative;
+    left: -1rem;
+}
+.right img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    align-self: center;
+    margin-bottom: 15px;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    justify-content: space-around;
+}
+footer p{
+    font-weight: 600;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+footer li:hover{
+    background-color: rgb( 18,155,155); 
+}
+.nav li:hover{
+    padding: 10px 10px;
+    color: #edf1fd;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb( 18,155,155); 
+
+
+}
